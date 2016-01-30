@@ -83,10 +83,6 @@ html,body{
     margin-top: 20px;
 }
 
-/*方法一:动态的添加或者删除类名(id名)来控制动画效果
-  方法二:如果是写的animation动画,可以通过设置animation-play-state值是paused停止,是running是播放
-*/
-
 .a2 #b2{
     position: absolute;
     top: 70px;
@@ -208,7 +204,7 @@ html,body{
 }
 
 
-#a4 #d2{
+.a4 #d2{
     position: absolute;
     width: 154px;
     height: 152px;
@@ -217,7 +213,7 @@ html,body{
     top: 100px;
     background-image: url(../image/techang.jpg);
 }
-#a4 #d5{
+.a4 #d5{
     position: absolute;
     width: 240px;
     height: 200px;
@@ -248,13 +244,4 @@ html,body{
     top: 760px;
     left: 65%;
     background-image: url(../image/biyan.png);
-}
-.a4 .d6{
-    -webkit-transform: translate(0,0);
-    transform: translate(0,0);
-}
-.a4 .d6{
-    -webkit-transition: 1s;
-    transition: 1s;
-
 }
